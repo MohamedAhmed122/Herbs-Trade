@@ -3,6 +3,7 @@ import { Fragment } from "react";
 import { Grid, Typography, Button } from "@material-ui/core";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 import useStyle from './Styles';
+import { Link } from "react-router-dom";
 const HeroHome = () => {
   const classes = useStyle();
   return (
@@ -24,7 +25,7 @@ const HeroHome = () => {
             <Grid item className={classes.grid}>
             <Grid container direction="row" spacing={3}>
                 <Grid item>
-                <Button className={classes.contactBtn} variant="outlined">
+                <Button component={Link} to='/products' className={classes.contactBtn} variant="outlined">
                     Take a Tour <ArrowForwardIcon />
                 </Button>
                 </Grid>

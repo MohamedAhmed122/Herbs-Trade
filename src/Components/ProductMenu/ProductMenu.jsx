@@ -43,7 +43,7 @@ const ProductMenu = () => {
             variant="outlined"
             className={classes.btn}
             component={Link}
-            to="/herbs"
+            to="/products/herbs"
           >
             Read More <ArrowForwardIcon style={{ marginLeft: "0.3rem" }} />
           </Button>
@@ -78,7 +78,7 @@ const ProductMenu = () => {
             variant="outlined"
             className={classes.Sbtn}
             component={Link}
-            to="/spices"
+            to="/products/spices"
           >
             <ArrowForwardIcon
               style={{ transform: "scaleX(-1)", marginRight: "0.5rem" }}
@@ -114,7 +114,7 @@ const ProductMenu = () => {
             variant="outlined"
             className={classes.btn}
             component={Link}
-            to="/seeds" 
+            to="/products/seeds" 
           >
             Read More <ArrowForwardIcon style={{ marginLeft: "0.3rem" }} />
           </Button>
@@ -148,7 +148,7 @@ const ProductMenu = () => {
             variant="outlined"
             className={classes.Sbtn}
             component={Link}
-            to="/specialProduct"
+            to="/products/specialProduct"
           >
             <ArrowForwardIcon
               style={{ transform: "scaleX(-1)", marginRight: "0.5rem" }}

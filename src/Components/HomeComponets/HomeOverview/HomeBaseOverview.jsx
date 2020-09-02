@@ -48,24 +48,24 @@ const Menu = [
     image: herbs,
     title: "Herbs",
     id: 1,
-    link: "/herbs",
+    link: "/products/herbs",
   },
   {
     image: seeds,
     title: "Seeds",
     id: 2,
-    link: "/seeds",
+    link: "/products/seeds",
   },
   {
     image: spices,
     title: "Spices",
     id: 3,
-    link: "/spices",
+    link: "/products/spices",
   },
   {
     image: product,
     title: "Specials",
     id: 1,
-    link: "/specialProduct",
+    link: "/products/specialProduct",
   },
 ];

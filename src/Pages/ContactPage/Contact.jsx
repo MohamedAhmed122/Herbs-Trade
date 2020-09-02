@@ -87,10 +87,10 @@ const MainContact = () => {
                         variant="subtitle1"
                         >
                         <a
-                            href="https://api.whatsapp.com/send?phone=+7(913)-113-66-37"
+                            href="https://api.whatsapp.com/send?phone=+201099953285"
                             style={{ color: "#4CAF50", textDecoration: "none" }}
                         >
-                            +5(555)-555-55-55
+                            +201099953285
                         </a>
                         </Typography>
                     </Grid>
@@ -103,10 +103,10 @@ const MainContact = () => {
                         variant="subtitle1"
                         >
                         <a
-                            href="mailto:Hello@Hello.com"
+                            href="mailto:Sales@herbstrades.com"
                             style={{ color: "#4CAF50", textDecoration: "none" }}
                         >
-                            Hello@Hello.com
+                            Sales@herbstrades.com
                         </a>
                         </Typography>
                     </Grid>

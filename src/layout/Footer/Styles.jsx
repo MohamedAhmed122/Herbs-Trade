@@ -19,8 +19,9 @@ export default makeStyles((theme) => ({
         margin: "3em",
         },
         icon: {
-        height: "4em",
-        width: "4em",
+        height: "2em",
+        width: "2em",
+        color: 'white',
         [theme.breakpoints.down("xs")]: {
             height: "2.5em",
             width: "2.5em",

@@ -22,9 +22,9 @@ const Drawer = () => {
   const DrawersItem = [
     { name: " Home ", link: "/" },
     { name: " Products ", link: "/products" },
-    { name: " Herbs ", link: "/herbs" },
-    { name: " Special Products", link: "/seeds" },
-    { name: " Spices ", link: "/spices" },
+    { name: " Herbs ", link: "/products/herbs" },
+    { name: " Special Products", link: "/products/seeds" },
+    { name: " Spices ", link: "/products/spices" },
     { name: " About Us ", link: "/about" },
   ];
 
@@ -38,9 +38,9 @@ const Drawer = () => {
         onClose={() => setOpen(false)}
         classes={{ paper: classes.drawer }}
       >
-        <div className={classes.ToolbarMargin} />
+        <div className={classes.ToolbarMargin}style={{marginTop: '1rem'}} />
         {DrawersItem.map((item, i) => (
-          <List key={i}>
+          <List key={i} >
             <ListItem
               component={Link}
               to={item.link}
