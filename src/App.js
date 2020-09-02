@@ -10,6 +10,8 @@ import HomePage from './Pages/HomePage/HomePage';
 import AboutPage from './Pages/AboutPage/AboutPage';
 import ContactPage from './Pages/ContactPage/Contact'
 
+import ProductPage from './Pages/ProductMainPage/ProductMainPage';
+
 function App() {
   return (
     <div className="App">
@@ -19,6 +21,7 @@ function App() {
             <Route exact path='/' component={HomePage} />
             <Route exact path='/about' component={AboutPage} />
             <Route exact path='/contact' component={ContactPage} />
+            <Route exact path='/products' component={ProductPage} />
           </Switch>
           <Footer />
       </ThemeProvider>
