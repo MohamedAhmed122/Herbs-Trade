@@ -21,7 +21,7 @@ const Header = ({ Product }) => {
             className={classes.infoBackground}
         ></Grid>
         <div>
-            <EcoIcon style={{ color: "#4CAF50", marginLeft: '7rem',}} />{" "}
+            <EcoIcon style={{ color: "#4CAF50", marginLeft: '7rem',}} />{" "} 
             <EcoIcon style={{ color: "#FFEB3B"}} />{" "}
             <EcoIcon style={{ color: "#4CAF50" }} />
         </div>

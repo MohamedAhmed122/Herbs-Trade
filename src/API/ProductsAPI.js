@@ -16,7 +16,7 @@ const Data = [
         "20 ft container load of basil :6 ton - 40 ft container load of basil :11 ton ",
         description:
         " Same smell of the fresh basil. Free of alive or dead insects Free of mouldy or bad smell, Moisture  8 - 10%max Vaporous oil min. 0.3%",
-        image: "https://i.ibb.co/HVYGFy7/bsil2.png",
+        image: "https://i.ibb.co/QCCnw2Z/basil.jpg",
         photo: "https://i.ibb.co/H2TT0YS/Basil.png",
     },
     {
@@ -37,7 +37,7 @@ const Data = [
         description:
         " Calendula, marigold is applied to the skin and mucous membrane for inflammations and skin diseases  Calendula, marigold has been used as a tea for various conditions and as a topical cream .Stem & bells max 3%  Admixture max. 5% - Minerals max 0.5%.",
         photo: "https://i.ibb.co/nw1LSRy/Calendula1.png",
-        image: "https://i.ibb.co/kMH2pr7/herbs1.jpg",
+        image: 'https://i.ibb.co/JjbB5Cg/Calendula-Marigold.png',
     },
     {
         id: "3",
@@ -76,7 +76,7 @@ const Data = [
         description:
         " People use the seed for medicine. Coriander is used for digestion problems including upset stomach, loss of appetite, hernia, nausea diarrhea, bowel spasms, and intestinal gas. It is also used to treat  measles, hemorrhoids, toothaches, worms, and joint pain, as well as infections caused by bacteria and fungus .",
         image:
-        "https://i.ibb.co/P9qrnQL/purepng-com-parsley-leavesfood-leaf-parsley-9415246383429y0vp.png",
+        'https://i.ibb.co/nnrFN2D/Coriander.jpg',
         photo:
         "https://i.ibb.co/991XNcP/purepng-com-parsley-leaffood-leaf-parsley-941524638572iyowc.png",
     },
@@ -99,7 +99,7 @@ const Data = [
         photo:
         "https://i.ibb.co/Kzt3bkf/Anethumgraveolens-Herb-Dill-Blue-Green-Leaves-Bright-Yellow-Flowers-and-Golden-Seeds-on-a-Kitchen-Su.png",
         image:
-        "https://i.ibb.co/L1x2g9G/dill-png-clip-art-11546980497pdijkzqxi4.png",
+        'https://i.ibb.co/0qkPKsd/dill.png',
     },
     {
         id: "6",
@@ -118,8 +118,7 @@ const Data = [
         description:
         "uses of hibiscus: herbs, Medicinal plants, herbal tea, ingredients, flavor . ",
         photo: "https://i.ibb.co/yFN4Pkk/unnamed.jpg",
-        image:
-        "https://i.ibb.co/ZGmKTtx/16509857-hibiscus-sabdariffa-or-roselle-fruits-isolated-on-white-background.jpg",
+        image: 'https://i.ibb.co/GdKbVhS/Hibiscus-Sabdariffa.jpg',
     },
     {
         id: "7",
@@ -158,7 +157,7 @@ const Data = [
         "20 ft container load of Majorana :6 ton - 40 ft container load of Majorana :12 ton .",
         description:
         " Uses  of marjoram: herbs, Medicinal plants, herbal tea, ingredients, Seasonings, flavor, spices, People make medicine from marjoram’s flowers, leaves, and oil. Marjoram is commonly used for runny nose, coughs, colds, infections, and various digestion problems and marjoram  oil are used as flavorings  .",
-        image: "https://i.ibb.co/cLs9yNc/marjoram.jpg",
+        image: 'https://i.ibb.co/bsT1ct0/Origanum-Majorana.jpg',
         photo: "https://i.ibb.co/jzwX7WP/Marjoram-2017-4-copy.jpg",
     },
     {
@@ -178,7 +177,7 @@ const Data = [
         description:
         "uses of moringa , uses aromatic , herbal tea, ingredients, Seasonings, flavor, spices.",
         image:
-        "https://i.ibb.co/PxWsKP0/173-1731947-drumstick-vegetable-png-moringa-oleifera-transparent-png.png",
+        'https://i.ibb.co/DbGtbL9/Moringa-oleifera.jpg',
         photo:
         "https://i.ibb.co/PxWsKP0/173-1731947-drumstick-vegetable-png-moringa-oleifera-transparent-png.png",
     },
@@ -219,7 +218,7 @@ const Data = [
         description:
         "Parsley leaves and roots are popular as condiments worldwide, it is very popular, Parsley has been used as a source of vitamins and minerals, it is amazing herb .",
         image:
-        "https://i.ibb.co/W5ZhfjZ/pngtree-fresh-coriander-green-leaf-realistic-parsley-png-image-3688072.jpg",
+        'https://i.ibb.co/PxR57QF/Parsley.jpg',
         photo:
         "https://i.ibb.co/991XNcP/purepng-com-parsley-leaffood-leaf-parsley-941524638572iyowc.png",
     },
@@ -240,7 +239,7 @@ const Data = [
         description:
         "  Uses of peppermint: herbs , Medicinal plants , aromatic , herbal tea, ingredients, Seasonings, flavor, spices, Peppermint is used to add flavor or fragrance to foods, cosmetics, soaps, toothpastes, mouthwashes, and other products like herbal tea, and it may have some medicinal uses .",
         image:
-        "https://i.ibb.co/py6GJH5/240-2403086-peppermint-png-pic-peppermint-png.png",
+        'https://i.ibb.co/cyPygKx/Peppermint.jpg',
         photo:
         "https://i.ibb.co/py6GJH5/240-2403086-peppermint-png-pic-peppermint-png.png",
     },
@@ -262,7 +261,7 @@ const Data = [
         "Sage is used for digestive problems, including loss of appetite, gas flatulence), stomach pain (gastritis), diarrhea, bloating, and  heartburn. It is also used for reducing overproduction of perspiration and saliva; and for depression, memory loss, and Alzheimer’s disease . ",
         photo:
         "https://i.ibb.co/ZfXbVz3/211-2111187-sage-herb-sage-hd-png-download.png",
-        image: "https://i.ibb.co/vQ6LSd7/sage-sage-11563227008y9ia1tkdvx.png",
+        image: 'https://i.ibb.co/tqBZWjf/Sage.jpg',
     },
     {
         id: "14",
@@ -282,7 +281,7 @@ const Data = [
         description:
         "  uses of spearmint: herbs , Medicinal plants , aromatic , herbal tea, ingredients, Seasonings, flavor, spices . ",
         image:
-        "https://i.ibb.co/YNcmvLk/kisspng-peppermint-essential-oil-spearmint-lekarnar-com-sp-midori-cannabis-infused-breath-strips-fre.jpg",
+        'https://i.ibb.co/hHBgBJy/Spearmint.jpg',
         photo:
         "https://i.ibb.co/M92P4j6/png-transparent-green-herbal-plant-mentha-spicata-peppermint-maghrebi-mint-tea-mentha-longifolia-min.png",
     },
@@ -440,7 +439,7 @@ const Data = [
         feet:
         "20 ft container load of dried lemon  :5 ton - 40 ft container load of dried lemon  :10 ton ",
         description: "",
-        image: "https://i.ibb.co/NxZpYQM/images-2.jpg",
+        image: 'https://i.ibb.co/vmMHwfX/Dried-Lemon.jpg',
         photo: "https://i.ibb.co/NxZpYQM/images-2.jpg",
     },
     {
@@ -457,8 +456,8 @@ const Data = [
         Usage: "Part use: leaves,crushed",
         feet: "Molokhia leaves, 1.5 ton/20 fcl - Molokhia leaves, 3 ton /40 fcl.",
         description: "Packing in Carton box 5 Kg per bag.",
-        image: "https://i.ibb.co/q7KgLxC/images-3.jpg",
-        photo: "https://i.ibb.co/X34C98F/Screen-Shot-2019-04-05-at-11-42-19-PM.png",
+        image: 'https://i.ibb.co/sJRp62m/Molokhia-d.jpg',
+        photo: "https://i.ibb.co/q7KgLxC/images-3.jpg",
     },
     {
         id: "24",
@@ -496,7 +495,7 @@ const Data = [
         description:
         'Description :Drying Process :"SD" Sun dried - Size: Depend on Customers Needs - Aroma: Pungent Sweet -  Flavor:Characteristic flavor',
         image:
-        "https://i.ibb.co/tZ3Nmj6/rosemary-rosemary-rosemary-flowering-rosemary-tattoo-11563248681i5hkdlyjfn.png",
+        'https://i.ibb.co/Dttd6R2/Rosemary.jpg',
         photo: "https://i.ibb.co/THQP77G/114-1143163-transparent-rosemary-png.png",
     },
     {
@@ -516,7 +515,7 @@ const Data = [
         description:
         " uses Thyme is by mouth for bronchitis, whooping cough, sore throat, colic, arthritis, upset stomach, stomach pain gastritis, diarrhea, bedwetting, a movement disorder in children dyspraxia, intestinal gas flatulence, parasitic worm infections, and skin disorders .",
         image:
-        "https://i.ibb.co/ZSJqY8X/flower-garden-thyme-herb-food-garden-thyme-spice-essential-oil-coriander-png-clipart.jpg",
+        'https://i.ibb.co/GPnccpH/Thyme.jpg',
         photo:
         "https://i.ibb.co/ZSJqY8X/flower-garden-thyme-herb-food-garden-thyme-spice-essential-oil-coriander-png-clipart.jpg",
     },
@@ -555,7 +554,7 @@ const Data = [
         description: "Length: 2, 5, 8, 10, 12, 15, 20 cm .",
         photo: "https://i.ibb.co/x5Xkznc/8721f5869b6a260d84d9b0b5a7e469a6.jpg",
         image:
-        "https://i.ibb.co/cLWYpR9/purepng-com-garlicgarlicwhite-garlicrecepie-1701527256150ns7cx.png",
+        'https://i.ibb.co/wK3wJK2/garlic.jpg',
     },
     {
         id: "30",
@@ -571,7 +570,7 @@ const Data = [
         Usage: "Special Product",
         feet: "Container 40 feet Capacity 25 tons .",
         description: "",
-        image: "https://i.ibb.co/Xpy9YC9/unnamed.png",
+        image: 'https://i.ibb.co/fF9vWkC/onion.jpg',
         photo: "https://i.ibb.co/4PV7dms/images.jpg",
     },
 ];
