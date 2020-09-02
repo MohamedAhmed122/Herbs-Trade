@@ -7,6 +7,7 @@ import './App.css';
 import Footer from './layout/Footer/Footer';
 import { Switch, Route } from 'react-router-dom';
 import HomePage from './Pages/HomePage/HomePage';
+import AboutPage from './Pages/AboutPage/AboutPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Navbar />
           <Switch>
             <Route exact path='/' component={HomePage} />
+            <Route exact path='/about' component={AboutPage} />
           </Switch>
           <Footer />
       </ThemeProvider>
