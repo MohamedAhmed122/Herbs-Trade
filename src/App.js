@@ -8,6 +8,7 @@ import Footer from './layout/Footer/Footer';
 import { Switch, Route } from 'react-router-dom';
 import HomePage from './Pages/HomePage/HomePage';
 import AboutPage from './Pages/AboutPage/AboutPage';
+import ContactPage from './Pages/ContactPage/Contact'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Switch>
             <Route exact path='/' component={HomePage} />
             <Route exact path='/about' component={AboutPage} />
+            <Route exact path='/contact' component={ContactPage} />
           </Switch>
           <Footer />
       </ThemeProvider>
