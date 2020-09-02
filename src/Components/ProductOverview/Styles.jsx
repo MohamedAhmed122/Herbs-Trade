@@ -34,7 +34,6 @@ export default makeStyles((theme) => ({
         backgroundColor: "white",
         borderColor: "#FFEB3B",
         },
-
         marginLeft: "1rem",
     },
     order: {
@@ -70,7 +69,7 @@ export default makeStyles((theme) => ({
         borderTopStyle: "solid",
         borderBottomStyle: "solid",
         borderWidth: "5px",
-        borderColor: "#1d8794",
+        borderColor: "#4CAF50",
         [theme.breakpoints.down("sm")]: {
         marginBottom: "3rem",
         },

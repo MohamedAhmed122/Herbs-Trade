@@ -12,6 +12,7 @@ import ContactPage from './Pages/ContactPage/Contact'
 
 import ProductPage from './Pages/ProductMainPage/ProductMainPage';
 import ProductOverviewPage from './Pages/ProductOverviewPage.jsx/ProductOverviewPage';
+import ProductDetailPage from './Pages/ProductDetails/ProductDetailPage';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route exact path='/contact' component={ContactPage} />
             <Route exact path='/products' component={ProductPage} />
             <Route  path='/products/:id' component={ProductOverviewPage} />
+            <Route  path='/productOverview/:id' component={ProductDetailPage} />
           </Switch>
           <Footer />
       </ThemeProvider>
