@@ -3,13 +3,14 @@
 const MainAPI =[
     {
         id: 1,
-        route: '/herbs',
+        route: 'herbs',
         category: 'Herbs Products',
         number: '15',
         products:[
             {
                 id: '1',
                 category: 'Herbs',
+                route: 'herbs',
                 name:'Basil',
                 color: 'green – brown ',
                 originOfBasil: 'Egypt',
@@ -27,6 +28,7 @@ const MainAPI =[
             {
                 id: '2',
                 category: 'Herbs',
+                route: 'herbs',
                 name:'Calendula – Marigold',
                 color: ' Orange  ',
                 originOfBasil: 'Egypt',
@@ -44,6 +46,7 @@ const MainAPI =[
             {
                 id: '3',
                 category: 'Herbs',
+                route: 'herbs',
                 name:'Chamomile',
                 color: 'yellow ',
                 originOfBasil: 'Egypt',
@@ -61,6 +64,7 @@ const MainAPI =[
             {
                 id: '4',
                 category: 'Herbs',
+                route: 'herbs',
                 name:'Coriander Leaves',
                 color: 'green  ',
                 originOfBasil: 'Egypt',
@@ -78,6 +82,7 @@ const MainAPI =[
             {
                 id: '5',
                 category: 'Herbs',
+                route: 'herbs',
                 name:'dill - Anethum graveolens',
                 color: ' light green up to dark green ',
                 originOfBasil: 'Egypt',
@@ -95,6 +100,7 @@ const MainAPI =[
             {
                 id: '6',
                 category: 'Herbs',
+                route: 'herbs',
                 name:' Hibiscus Sabdariffa',
                 color: ' red ',
                 originOfBasil: 'Egypt',
@@ -112,6 +118,7 @@ const MainAPI =[
             {
                 id: '7',
                 category: 'Herbs',
+                route: 'herbs',
                 name:'Lemon Grass',
                 color: ' light green up to  yellow ',
                 originOfBasil: 'Egypt',
@@ -129,6 +136,7 @@ const MainAPI =[
             {
                 id: '8',
                 category: 'Herbs',
+                route: 'herbs',
                 name:'Origanum Majorana',
                 color: 'green, gray',
                 originOfBasil: 'Egypt',
@@ -146,6 +154,7 @@ const MainAPI =[
             {
                 id: '9',
                 category: 'Herbs',
+                route: 'herbs',
                 name:' Moringa oleifera',
                 color: 'green',
                 originOfBasil: 'Egypt',
@@ -163,6 +172,7 @@ const MainAPI =[
             {
                 id: '10',
                 category: 'Herbs',
+                route: 'herbs',
                 name:'Origanum vulgare',
                 color: ' Impurities max 2% - Total ash max 12% ',
                 originOfBasil: 'Egypt',
@@ -181,6 +191,7 @@ const MainAPI =[
             {
                 id: '11',
                 category: 'Herbs',
+                route: 'herbs',
                 name:'Parsley',
                 color: 'light green up to dark green',
                 originOfBasil: 'Egypt',
@@ -198,6 +209,7 @@ const MainAPI =[
             {
                 id: '12',
                 category: 'Herbs',
+                route: 'herbs',
                 name:'Peppermint',
                 color: ' Dark green ',
                 originOfBasil: 'Egypt',
@@ -215,6 +227,7 @@ const MainAPI =[
             {
                 id: '13',
                 category: 'Herbs',
+                route: 'herbs',
                 name:'Sage',
                 color: 'Light gray ',
                 originOfBasil: 'Egypt',
@@ -232,6 +245,7 @@ const MainAPI =[
             {
                 id: '14',
                 category: 'Herbs',
+                route: 'herbs',
                 name:'Spearmint',
                 color: 'green  ',
                 originOfBasil: 'Egypt',
@@ -249,6 +263,7 @@ const MainAPI =[
             {
                 id: '23',
                 category: 'Herbs',
+                route: 'herbs',
                 name:'Molokhia',
                 color: ' Dark green',
                 originOfBasil: 'Egypt',
@@ -267,12 +282,13 @@ const MainAPI =[
     },
     {
         id: 2,
-        route: '/spices',
+        route: 'spices',
         category: 'Spices Product',
         number: '3',
         products:[
             {
                 id: '24',
+                route: 'spices',
                 category: 'Spices',
                 name:' Red Chili',
                 color: 'red',
@@ -291,6 +307,7 @@ const MainAPI =[
             {
                 id: '25',
                 category: 'Spices',
+                route: 'spices',
                 name:'Rosemary',
                 color: 'green',
                 originOfBasil: 'Egypt',
@@ -308,6 +325,7 @@ const MainAPI =[
             {
                 id: '26',
                 category: 'Spices',
+                route: 'spices',
                 name:'Thyme',
                 color: 'green',
                 originOfBasil: 'Egypt',
@@ -320,19 +338,20 @@ const MainAPI =[
                 feet: '20 ft container load of Thyme :7 ton - 40 ft container load of Thyme :14 ton .',
                 description:' uses Thyme is by mouth for bronchitis, whooping cough, sore throat, colic, arthritis, upset stomach, stomach pain gastritis, diarrhea, bedwetting, a movement disorder in children dyspraxia, intestinal gas flatulence, parasitic worm infections, and skin disorders .',
                 image: 'https://i.ibb.co/ZSJqY8X/flower-garden-thyme-herb-food-garden-thyme-spice-essential-oil-coriander-png-clipart.jpg',
-                photo: 'https://i.ibb.co/ZSJqY8X/flowe'
+                photo: 'https://i.ibb.co/ZSJqY8X/flower-garden-thyme-herb-food-garden-thyme-spice-essential-oil-coriander-png-clipart.jpg',
             },
         ]
     },
     {
         id: 3,
-        route: '/seeds',
+        route: 'seeds',
         category: 'Seeds Product',
         number: '8',
         products:[
             {
                 id: '15',
                 category: 'Seeds',
+                route: 'seeds',
                 name:'Pimpinella Anisum',
                 color: 'Brown',
                 originOfBasil: 'Egypt',
@@ -351,6 +370,7 @@ const MainAPI =[
             {
                 id: '16',
                 category: 'Seeds',
+                route: 'seeds',
                 name:'caraway seeds',
                 color: 'Dark Brown',
                 originOfBasil: 'Egypt',
@@ -368,6 +388,7 @@ const MainAPI =[
             {
                 id: '17',
                 category: 'Seeds',
+                route: 'seeds',
                 name:'Cumin Seeds',
                 color: 'Green cumin – brown cumin – black cumin',
                 originOfBasil: 'Egypt',
@@ -387,6 +408,7 @@ const MainAPI =[
                 id: '18',
                 category: 'Fennel Seeds',
                 name:'Pimpinella Anisum',
+                route: 'seeds',
                 color: 'major green and some brown',
                 originOfBasil: 'Egypt',
                 Type: ' conventional fennel and organic fennel.',
@@ -403,6 +425,7 @@ const MainAPI =[
             {
                 id: '19',
                 category: 'Seeds',
+                route: 'seeds',
                 name:'Fenugreek',
                 color: 'green fenugreek and yellow fenugreek',
                 originOfBasil: 'Egypt',
@@ -421,6 +444,7 @@ const MainAPI =[
             {
                 id: '20',
                 category: 'Seeds',
+                route: 'seeds',
                 name:'Sesame',
                 color: 'Golden - White',
                 originOfBasil: 'Egypt',
@@ -438,6 +462,7 @@ const MainAPI =[
             {
                 id: '21',
                 category: 'Spices',
+                route: 'seeds',
                 name:'Coriander seeds',
                 color: 'Yellowish brown or light brown.',
                 originOfBasil: 'Egypt',
@@ -455,6 +480,7 @@ const MainAPI =[
             {
                 id: '22',
                 category: 'Seeds',
+                route: 'seeds',
                 name:'Dried Lemon',
                 color: 'yellow Or black',
                 originOfBasil: 'Egypt',
@@ -473,13 +499,14 @@ const MainAPI =[
     },
     {
         id: 4,
-        route: '/specialProduct',
-        category: 'Seeds Product',
+        route: 'specialProduct',
+        category: 'Special Product',
         number: '3',
         products:[
             {
                 id: '27',
                 category: 'Special Product',
+                route: 'specialProduct',
                 name:'Dried Tomatoes',
                 color: 'red',
                 originOfBasil: 'Egypt',
@@ -497,6 +524,7 @@ const MainAPI =[
             {
                 id: '28',
                 category: 'Special Product',
+                route: 'specialProduct',
                 name:'garlic',
                 color: ' red & white ',
                 originOfBasil: 'Egypt',
@@ -514,6 +542,7 @@ const MainAPI =[
             {
                 id: '30',
                 category: 'Special Product',
+                route: 'specialProduct',
                 name:'onion',
                 color: ' Red and Yellow',
                 originOfBasil: 'Egypt',
@@ -531,3 +560,7 @@ const MainAPI =[
         ]
     },
 ]
+
+
+
+export default  MainAPI;

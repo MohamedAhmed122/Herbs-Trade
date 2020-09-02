@@ -1,6 +1,6 @@
 import React from "react";
 import { Fragment } from "react";
-import ProductOverview from "../../Components/ProductOverview/ProductOverview";
+import ProductOverview from "../../Components/ProductMenu/ProductMenu";
 import { Grid, Typography, makeStyles } from "@material-ui/core";
 import Background from "../../assets/plant.jpg";
 const ProductPage = () => {

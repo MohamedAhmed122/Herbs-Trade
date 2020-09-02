@@ -9,10 +9,10 @@ const MenuDropdown = ({ setOpen, setAnchorEl, anchorEl, open }) => {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const menuItems = [
     { name: " Products", link: "/products" },
-    { name: " Herbs Products", link: "/herbs" },
-    { name: " Spices Products", link: "/spices" },
-    { name: " Seeds Products", link: "/seeds" },
-    { name: " Special Products", link: "/specialProduct" },
+    { name: " Herbs Products", link: "/products/herbs" },
+    { name: " Spices Products", link: "/products/spices" },
+    { name: " Seeds Products", link: "/products/seeds" },
+    { name: " Special Products", link: "/products/specialProduct" },
   ];
   const handleMenuItem = (e, i) => {
     setAnchorEl(null);
