@@ -9,7 +9,7 @@ export default createMuiTheme({
     common: {
         arcGreen: arcGreen,
         arcYellow: arcYellow,
-        arcMaxGreen: arcWhiteGreen,
+        arcWhiteGreen: arcWhiteGreen,
         arcGrey: arcGrey
     },
     primary: {
@@ -23,6 +23,43 @@ export default createMuiTheme({
             fontSize: "1rem",
             fontWeight: 200,
             color: arcGrey
+        },
+        tourBtn:{
+            backgroundColor: arcWhiteGreen,
+            borderColor: arcWhiteGreen,
+            borderWidth: 2,
+            textTransform: "none",
+            color: "white",
+            fontSize: "1.2rem",
+            fontFamily: "Roboto",
+            fontWeight: "bold",
+            height: 55,
+            marginTop: "3rem",
+            width: 175,
+            "&:hover": {
+                borderColor: arcWhiteGreen,
+                backgroundColor: "white",
+                color: arcWhiteGreen,
+            },
+        },
+        heroContactBtn: {
+            backgroundColor: arcYellow,
+            borderColor: arcYellow,
+            borderWidth: 2,
+            textTransform: "none",
+            marginTop: "3rem",
+            marginRight: "2rem",
+            color: "white",
+            fontSize: "1.2rem",
+            fontFamily: "Roboto",
+            fontWeight: "bold",
+            height: 55,
+            width: 175,
+            "&:hover": {
+                borderColor: arcYellow,
+                color: arcYellow,
+                backgroundColor: "white",
+            },
         },
         tab: {
             fontFamily: "Raleway",
@@ -51,7 +88,6 @@ export default createMuiTheme({
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
-            height: "100%",
         },
         background:{
             backgroundPosition: "center",

@@ -4,12 +4,12 @@ export default makeStyles((theme) => ({
   // navbar//
   ToolbarMargin: {
     ...theme.mixins.toolbar,
-    marginBottom: "3em",
+    marginBottom: "",
     [theme.breakpoints.down("md")]: {
-      marginBottom: "2em",
+      marginBottom: "",
     },
     [theme.breakpoints.down("xs")]: {
-      marginBottom: "1.3em",
+      marginBottom: '',
     },
   },
 
